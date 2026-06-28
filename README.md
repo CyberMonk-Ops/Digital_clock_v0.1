@@ -21,3 +21,6 @@ V1 Notes & Constraints & Future Improvements
 This repository represents the V1 prototype. The following structural constraints have been identified for V2 optimization:
 Power Draw: The V1 architecture continuously polls the Wi-Fi radio and drives the OLED at maximum brightness, resulting in an ~8-hour battery lifecycle. V2 will require deep-sleep implementation and interrupt-driven wake cycles to extend battery life.
 Chassis Ergonomics: The physical placement of the capacitive sensors relative to the display creates a UI bottleneck during rapid inputs (e.g., during the arcade mode). V2 requires a redesigned, 3D-printed enclosure to separate the oled screen and touch sensors properly.
+
+<img width="2480" height="3508" alt="1000041735" src="https://github.com/user-attachments/assets/f4f944ba-a49b-4000-9ff2-605e00ff4764" />
+
